@@ -10,10 +10,6 @@
 |2|11.2.2020|[Database of users, Classes](https://github.com/vymaztom/PC2T/tree/master/cv02)|
 |3|18.2.2020|[Statistic of subjects, Interfaces](https://github.com/vymaztom/PC2T/tree/master/cv03)|
 |4|25.2.2020|[Evidence of Goods, extend](https://github.com/vymaztom/PC2T/tree/master/cv04)|
-|1|4.2.2020|[Codecademy tutorials](../vc02)|
-|2|11.2.2020|Database of users, Classes|
-|3|18.2.2020|Statistic of subjects, Interfaces|
-|4|25.2.2020|Evidence of Goods, extend|
 |5|3.3.2020||
 |6|10.3.2020||
 |7|17.3.2020||
