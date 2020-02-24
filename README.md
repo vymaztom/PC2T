@@ -6,7 +6,7 @@
 
 |**N. of lesson**|**Date**|**Activity**|
 |:-:|:-:|:-:|
-|1|4.2.2020|[Codecademy tutorials](/vc02)|
+|1|4.2.2020|[Codecademy tutorials](../vc02)|
 |2|11.2.2020|Database of users, Classes|
 |3|18.2.2020|Statistic of subjects, Interfaces|
 |4|25.2.2020|Evidence of Goods, extend|
