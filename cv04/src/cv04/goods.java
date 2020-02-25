@@ -26,5 +26,7 @@ abstract public class goods {
 	public void setPrice(double price) {
 		this.price = price;
 	}
+	
+	abstract public String getUnit();
 
 }
