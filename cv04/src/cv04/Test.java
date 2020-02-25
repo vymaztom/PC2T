@@ -9,9 +9,10 @@ public class Test {
 		data[1] = new Tool("Kleštì",278.0,24);
 		data[2] = new Food("Chleba",20.8,6);
 		data[3] = new Food("Jablko",51.0,20);
+		printData(data);
 	}
 
-	public void printData(goods[] data){
+	public static void printData(goods[] data){
 		for(int i = 0 ; i < 4 ; i++){
 			System.out.print(data[i].getName() + ", cena: " + data[i].getPrice());
 			if(data[i] instanceof Food){
