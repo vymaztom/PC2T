@@ -4,7 +4,7 @@ abstract public class goods {
 	
 	private String name;
 	private double price; 
-	private double DPH = 0.21;
+	private static double DPH = 0.21;
 	
 	public goods(String name, double price){
 		this.name = name;
@@ -20,7 +20,7 @@ abstract public class goods {
 	}
 
 	public double getPrice() {
-		return(price*(1+this.DPH));
+		return(price*(1+DPH));
 	}
 
 	public void setPrice(double price) {
