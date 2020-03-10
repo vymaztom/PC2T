@@ -1,3 +1,4 @@
+import java.io.File;
 import java.util.Scanner;
 
 
@@ -56,6 +57,9 @@ public class Test {
 			System.out.println("3 .. nastaveni prumeru studenta");
 			System.out.println("4 .. vypis informace o studentovi");
 			System.out.println("5 .. ukonceni aplikace");
+			System.out.println("6 .. vypis database");
+			System.out.println("7 .. ulož databazi do souboru");
+			System.out.println("8 .. naèti databazi ze souboru");
 			volba=pouzeCelaCisla(sc);
 			switch(volba)
 			{
@@ -92,6 +96,8 @@ public class Test {
 						System.out.println("Index je neplatny");
 					}catch (NullPointerException e) {
 						System.out.println("Na zvolene pozici neni Vytvozen student");
+					}catch(Exception e){
+						System.out.println(e.toString());
 					}
 					break;
 				case 4:
@@ -111,6 +117,31 @@ public class Test {
 					break;
 				case 5:
 					run=false;
+					break;
+				case 6:
+					mojeDatabaze.printDatabase();
+					break;
+				case 7:
+					System.out.println("Zadejte cele jmeno souboru:");
+					String jmenoSouboruSave=sc.next();
+					String pathSave = System.getProperty("user.dir");
+					System.out.println(pathSave + File.separator +jmenoSouboruSave);
+					mojeDatabaze.saveIntoFile(pathSave + File.separator +jmenoSouboruSave);
+					break;
+				case 8:
+					System.out.println("Zadejte cele jmeno souboru:");
+					String jmenoSouboruLoad=sc.next();
+					String pathLoad = System.getProperty("user.dir");
+					System.out.println(pathLoad + File.separator +jmenoSouboruLoad);
+					
+					mojeDatabaze.loadFromFile(pathLoad + File.separator +jmenoSouboruLoad);
+					break;
+				case 9:
+					System.out.println("Zadejte cele jmeno souboru:");
+					String jmenoSouboruLoadFull=sc.next();
+					System.out.println(File.separator +jmenoSouboruLoadFull);
+					
+					mojeDatabaze.loadFromFile(jmenoSouboruLoadFull);
 					break;
 			}
 			
