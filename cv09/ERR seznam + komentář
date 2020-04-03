@@ -1,0 +1,14 @@
+ERR 1		Obsah nemùže být typu int ale musí být float
+ERR 2		výpis obsahu musí vypisovat obsah ne objem
+ERR 3		Ctverec není Cetverec
+ERR 4		static místo final
+ERR 5		chybí super(podstava)
+ERR 6		chybí "this".hrana
+ERR 7		hasNextBoolean() místo hasNextFloat()
+ERR 8		není vytvoøená instance, nejde vkládat data do neexistující instance
+ERR 9		iterace musí zaèínat od 0 a musí iterovat pouze pøes existující instance
+ERR 10		pøi hledání minima musí být float min= Float.MAX_VALUE
+ERR 11		mojeHranoly[i].zeDreva=true bude vždy true ... musí se použít mojeHranoly[i].zeDreva==true nebo mojeHranoly[i].jeDreveny()
+ERR 12		výpis objemu musí vypisovat objem ne obsah
+
+NOTE		chybí main method nejde spustit, jako èást kodu nebo jako knihovna dobry
